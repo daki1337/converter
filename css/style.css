@@ -1,4 +1,32 @@
 .hello{
     text-align: center;
-    
+    font-style: italic ;
+    padding-top:50px;
+    color:rgba(232,0,0,1);
+}
+body{
+    font-family: rubik,helvetika,arial,sans-serif;
+}
+.border{
+    text-align: center;
+    background: rgb(34,5,9);
+background: linear-gradient(52deg, rgba(34,5,9,1) 0%, rgba(31,6,6,1) 0%, rgba(232,0,0,1) 100%);
+}
+.enter{
+    color:rgba(232,0,0,1);
+}
+.border-enter{
+    text-align: center;
+    border:solid 1px;
+    margin-left: 663px;
+    margin-right: 663px;
+    margin-top: 30px;
+    padding: 5px;
+}
+.border-button{
+    border:solid 1px;
+    text-align: center;
+    margin-top: 10px;
+    margin-left: 888px;
+    margin-right: 888px;
 }
