@@ -14,8 +14,10 @@ background: linear-gradient(52deg, rgba(34,5,9,1) 0%, rgba(31,6,6,1) 0%, rgba(23
 }
 .enter{
     color:rgba(232,0,0,1);
+    padding-left:30px ;
 }
 .border-enter{
+    color: red;
     text-align: center;
     border:solid 1px;
     margin-left: 663px;
@@ -24,9 +26,13 @@ background: linear-gradient(52deg, rgba(34,5,9,1) 0%, rgba(31,6,6,1) 0%, rgba(23
     padding: 5px;
 }
 .border-button{
+    color: red;
     border:solid 1px;
     text-align: center;
     margin-top: 10px;
     margin-left: 888px;
     margin-right: 888px;
+}
+.title{
+    text-align: center;
 }

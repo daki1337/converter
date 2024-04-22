@@ -31,7 +31,7 @@ async function getAudio() {
     } catch (error) {
         console.error(error);
     }
-    resultDisplay.innerHTML = `<p class = "title">Title: ${result.title}</p>`
+    resultDisplay.innerHTML = `<p class = "title">${result.title}</p>`
         //Download link
         setTimeout(() => {
             window.open(result.link, "_blank")
