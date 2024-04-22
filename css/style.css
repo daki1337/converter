@@ -13,13 +13,14 @@ body{
 background: linear-gradient(52deg, rgba(34,5,9,1) 0%, rgba(31,6,6,1) 0%, rgba(232,0,0,1) 100%);
 }
 .enter{
+    font-style: italic;
     color:rgba(232,0,0,1);
     padding-left:30px ;
 }
 .border-enter{
     color: red;
     text-align: center;
-    border:solid 1px;
+    border:solid 2px;
     margin-left: 663px;
     margin-right: 663px;
     margin-top: 30px;
@@ -27,7 +28,7 @@ background: linear-gradient(52deg, rgba(34,5,9,1) 0%, rgba(31,6,6,1) 0%, rgba(23
 }
 .border-button{
     color: red;
-    border:solid 1px;
+    border:solid 2px;
     text-align: center;
     margin-top: 10px;
     margin-left: 888px;
@@ -35,4 +36,9 @@ background: linear-gradient(52deg, rgba(34,5,9,1) 0%, rgba(31,6,6,1) 0%, rgba(23
 }
 .title{
     text-align: center;
+    color: red;
+}
+.button1{
+    font-style: italic;
+
 }
