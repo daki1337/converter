@@ -1,44 +1,66 @@
+@import "./reset.css";
 .hello{
     text-align: center;
-    font-style: italic ;
+    font-style: normal ;
     padding-top:50px;
-    color:rgba(232,0,0,1);
+    color: white;
+    font-size: 25px;
 }
 body{
     font-family: rubik,helvetika,arial,sans-serif;
+    background: #171718;
 }
 .border{
     text-align: center;
-    background: rgb(34,5,9);
-background: linear-gradient(52deg, rgba(34,5,9,1) 0%, rgba(31,6,6,1) 0%, rgba(232,0,0,1) 100%);
+    background: black;
+    border-bottom: 2px solid #26292D;
 }
 .enter{
-    font-style: italic;
-    color:rgba(232,0,0,1);
+    font-style: normal;
+    font-size: 28px;
+    color:#171718;
     padding-left:30px ;
 }
 .border-enter{
-    color: red;
+    color: white;
     text-align: center;
     border:solid 2px;
-    margin-left: 663px;
-    margin-right: 663px;
+    border-radius: 20px;
+    background: white;
+    margin-left: 40%;
+    margin-right: auto;
     margin-top: 30px;
     padding: 5px;
+    display: inline-block;  
 }
 .border-button{
-    color: red;
-    border:solid 2px;
+    border-radius: 20px;
+    letter-spacing: 0.15px;
+    font-size: 16px;
+    font-weight: 500;
+    transition: opacity 0.3s ease-in;
+    background-color: #5C62EC;
+    color: white;
     text-align: center;
     margin-top: 10px;
     margin-left: 888px;
     margin-right: 888px;
+    padding: 8px 29px;
+    height: 48px;
+    font-style:normal;
+    font-size: 25px;
+    cursor: pointer;
+}
+.border-button:hover{
+    opacity: 0.8;
+}
+
+.border-button:active{
+    position: relative;
+    top: 1px;
 }
 .title{
     text-align: center;
-    color: red;
-}
-.button1{
-    font-style: italic;
-
+    color: white;
+    font-size: 25px;
 }
