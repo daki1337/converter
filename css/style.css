@@ -6,14 +6,17 @@
     color: white;
     font-size: 25px;
 }
+
 body{
     font-family: rubik,helvetika,arial,sans-serif;
     background: #171718;
+    max-width: 100%;
 }
 .border{
     text-align: center;
     background: black;
     border-bottom: 2px solid #26292D;
+    
 }
 .enter{
     font-style: normal;
